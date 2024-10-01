@@ -27,3 +27,14 @@
 * Ethernet:            Yes
 * Wi-Fi:               Yes
 * Bluetooth:           Yes
+* USB Ports:           Yes
+
+## Not working / Tested:
+
+* Sleep: Disabled
+
+## Notes:
+
+Generate your own iMac18,1 SMBIOS. Use the Dortania Guide.
+This EFI contains prebuilt SSDT from https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html.
+Using them boots my PC! :D
