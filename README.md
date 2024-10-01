@@ -3,6 +3,7 @@
 ## System Information 
 
 |  Part           |
+|-----------------|
 |  Motherboard    |
 |  CPU            |
 |  GPU            |
