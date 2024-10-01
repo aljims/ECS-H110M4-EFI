@@ -1,4 +1,4 @@
-# ECS H110M4-C43 EFI Hackintosh
+# ECS H110M4-C43 OpenCore Configuration
 
 ![System Information](Docs/Info.png)
 
