@@ -28,13 +28,13 @@
 * Audio (line-out):    Yes
 * Ethernet:            Yes
 * Wi-Fi:               Yes
-* Bluetooth:           Yes
 * USB Ports:           Yes
 
 ## Not working / Tested:
 
 * Sleep: Disabled
 * HDMI Audio
+* Bluetooth: Not working
 
 ## Notes:
 
