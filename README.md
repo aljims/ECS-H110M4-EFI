@@ -32,12 +32,18 @@
 
 ## Not working / Tested:
 
-* Sleep: Disabled
-* HDMI Audio
-* Bluetooth: Not working
+* Sleep: Not working.
+* HDMI Audio: Not tested.
+* Bluetooth: Not working.
+* VGA: Not tested.
+* DVI: Not tested.
 
 ## Notes:
 
-* Generate your own iMac18,1 SMBIOS. Use the Dortania Guide. This EFI contains prebuilt SSDT from https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html. Using them boots my PC! :D
+* Generate your own iMac18,1 SMBIOS. Use the Dortania Guide.
 
 * This EFI includes boot chime and GUI bootloader. Verbose boot is disabled. Feel free to edit the plist.
+
+## Updates:
+
+  * Latest EFI has proper USB Mapping and ACPI files built exactly for this motherboard.
