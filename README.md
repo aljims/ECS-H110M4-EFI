@@ -46,4 +46,4 @@
 
 ## Updates:
 
-  * Latest EFI has proper USB Mapping and ACPI files built exactly for this motherboard.
+  * Use the latest EFI for Ventura. Has proper USB Mapping and ACPI patches.
