@@ -1,6 +1,6 @@
 # ECS H110M4-C43 OpenCore Configuration
 
-![System Information](Docs/Info.png)
+![System Information](Docs/Ventura.png)
 
 ## System Information 
 
@@ -11,15 +11,14 @@
 |  CPU            |  Intel Core i3-7100                          |
 |  GPU            |  Intel HD Graphics 630                       |
 |  Ethernet       |  Realtek 8111GN Gigabit Ethernet Controller  |
-|  Wi-Fi          |  Realtek RTL8821CU (TP-Link T2UB Nano)       |
-|  Bluetooth      |  Realtek RTL8821CU (TP-Link T2UB Nano)       |
+|  Wi-Fi          |  Intel Wireless-AC 7265                      |
+|  Bluetooth      |  Intel Wireless-AC 7265 Bluetooth 4.2        |
 |  Audio          |  Realtek ALC662                              |
 
 ## Tested macOS Version
 
 |  macOS Version       |                      |
 |----------------------|----------------------|
-|  macos 15 Sequoia    |  ✅ Working          |
 |  macos 13 Ventura    |  ✅ Working          |
 
 ## What's working:
@@ -28,13 +27,13 @@
 * Audio (line-out):    Yes
 * Ethernet:            Yes
 * Wi-Fi:               Yes
+* Bluetooth:           Yes
 * USB Ports:           Yes
 
 ## Not working / Tested:
 
 * Sleep: Not working.
 * HDMI Audio: Not tested.
-* Bluetooth: Not working.
 * VGA: Not tested.
 * DVI: Not tested.
 
@@ -42,8 +41,8 @@
 
 * Generate your own iMac18,1 SMBIOS. Use the Dortania Guide.
 
-* This EFI includes boot chime and GUI bootloader. Verbose boot is disabled. Feel free to edit the plist.
-
+* This EFI includes boot chime and GUI bootloader. Verbose boot is disabled.
+  
 ## Updates:
 
-  * Use the latest EFI for Ventura. Has proper USB Mapping and ACPI patches.
+  * Removed macOS Sequoia support.
