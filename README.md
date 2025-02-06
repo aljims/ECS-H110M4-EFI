@@ -19,7 +19,8 @@
 
 |  macOS Version       |                      |
 |----------------------|----------------------|
-|  macos 13 Ventura    |  ✅ Working          |
+|  macOS 15 Sequoia    |  ✅ Working          |
+|  macOS 13 Ventura    |  ✅ Working          |
 
 ## What's working:
 
